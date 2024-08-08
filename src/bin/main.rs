@@ -1,3 +1,3 @@
 fn main() {
-  ord::main();
+  xord::main();
 }

@@ -1,12 +1,12 @@
 [package]
-name = "ord"
-description = "◉ Ordinal wallet and block explorer"
+name = "xord"
+description = "◉ Ordinal wallet and block explorer + filter capacities and transfer history"
 version = "0.13.1-gm4"
 license = "CC0-1.0"
 edition = "2021"
 autotests = false
-homepage = "https://github.com/ordinals/ord"
-repository = "https://github.com/ordinals/ord"
+homepage = "https://github.com/cyb-ord/xord"
+repository = "https://github.com/cyb-ord/xord"
 autobins = false
 rust-version = "1.67"
 
@@ -74,11 +74,11 @@ test-bitcoincore-rpc = { path = "test-bitcoincore-rpc" }
 unindent = "0.2.1"
 
 [[bin]]
-name = "ord"
+name = "xord"
 path = "src/bin/main.rs"
 
 [lib]
-name = "ord"
+name = "xord"
 path = "src/lib.rs"
 
 [[test]]
